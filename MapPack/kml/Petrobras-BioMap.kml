@@ -1,0 +1,1837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Petrobras-BioMap.kml</name>
+	<Style id="inactive-flora0">
+		<IconStyle>
+			<Icon>
+				<href>http://www.hotsitespetrobras.com.br/rao2008/earth/marker3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="active-flora1">
+		<IconStyle>
+			<Icon>
+				<href>http://www.hotsitespetrobras.com.br/rao2008/earth/marker3.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="inactive-fauna1">
+		<IconStyle>
+			<Icon>
+				<href>http://www.hotsitespetrobras.com.br/rao2008/earth/marker-fauna.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="fauna0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inactive-fauna1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#active-fauna0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="flora0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inactive-flora0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#active-flora1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="aero0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inactive-aero0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#active-aero1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inactive-aero0">
+		<IconStyle>
+			<Icon>
+				<href>http://www.hotsitespetrobras.com.br/rao2008/earth/markerAero.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="active-fauna0">
+		<IconStyle>
+			<Icon>
+				<href>http://www.hotsitespetrobras.com.br/rao2008/earth/marker-fauna.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="active-aero1">
+		<IconStyle>
+			<Icon>
+				<href>http://www.hotsitespetrobras.com.br/rao2008/earth/markerAero.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>SelectPlaces</name>
+		<open>1</open>
+		<Placemark id="107">
+			<name>Saí-azul</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/fauna.png</href></Icon>
+			<description><![CDATA[<table><tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>Saí-azul</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/107.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+					<font face="Tahoma" size="3" color="#3498d5">
+
+
+				<b id="txt_tipo_nome_cientifico_es" style="display:inline">Nombre científico</b>: Dacnis cayana			</font>
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						Mide aproximadamente 15 cm de longitud. Especie de hábitos gregarios, vive en pequeños grupos de 2 a 4 individuos. Frecuentemente asociado a grupos mixtos en las copas de los árboles. Se alimenta de frutas, insectos y néctar. Ocurre desde el norte de Colombia hasta Uruguay, y en todo Brasil.
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+					<span id="txt_saiba_mais_es" style="display: inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+						<span id="txt_down_es" style="display: inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+								<span id="txt_bt_down_es">Descargar</span>
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+					<b id="txt_grupo_es">Grupo</b>
+				</td>
+				<td width="152">Aves</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+					<b id="txt_familia_es">Familia</b>
+				</td>
+				<td width="152">Thraupidae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr></table>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.06666667</longitude>
+				<latitude>-4.85</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#fauna0</styleUrl>
+			<Point>
+				<coordinates>-65.06666667,-4.85,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="257">
+			<name>Ingarana</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/flora.png</href></Icon>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/257.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+					<font face="Tahoma" size="3" color="#3498d5">
+
+				<b id="txt_tipo_nome_cientifico_es" style="display:inline">Nombre científico</b>: Heterostemon ellipticus Mart ex Benth.			</font>
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						Árbol de subdosel, con ramas ennegrecidas y hojas compuestas y folíolos alternados. Sus flores poseen pétalos y sépalos lilas. Posiblemente polinizada por colibríes. Ocurre en selva densa de tierra firme, próxima a márgenes de ríos y arroyos.
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Dicotiledônea</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Leguminosae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.15333333</longitude>
+				<latitude>-4.885833333</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#flora0</styleUrl>
+			<Point>
+				<coordinates>-65.15333333,-4.885833333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="275">
+			<name>Vochysia floribunda Mart.</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/flora.png</href></Icon>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>Vochysia floribunda Mart.</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/275.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						"Árbol de dosel. Posee ramas con
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Dicotiledônea</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Vochysiaceae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.35694444000001</longitude>
+				<latitude>-4.844722222</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#flora0</styleUrl>
+			<Point>
+				<coordinates>-65.35694444000001,-4.844722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="117">
+			<name>Estalador-do-norte</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/flora.png</href></Icon>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>Estalador-do-norte</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/117.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+					<font face="Tahoma" size="3" color="#3498d5">
+
+
+				<b id="txt_tipo_nome_cientifico_es" style="display:inline">Nombre científico</b>: Corythopis torquatus			</font>
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						Mede aproximadamente 10cm de comprimento e pesa cerca de 15g. Tem o hábito de bater o bico provocando um estalo, daí a origem de seu nome popular. Habita o chão das matas de terra firme em busca de artrópodes, sempre solitário ou aos pares. Ocorre em quase toda a Amazônia até o norte do Mato Grosso e o oeste do Maranhão.
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Aves</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Tyrannidae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]>
+</description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.06666667</longitude>
+				<latitude>-4.85</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#fauna0</styleUrl>
+			<Point>
+				<coordinates>-65.06666667,-4.85,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="68">
+			<name>Peixe-borboleta</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/fauna.png</href></Icon>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>Peixe-borboleta</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/68.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+					<font face="Tahoma" size="3" color="#3498d5">
+
+
+				<b id="txt_tipo_nome_cientifico_es" style="display:inline">Nombre científico</b>: Gasteropelecus sternicla			</font>
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						Los miembros de esta familia poseen un cuerpo comprimido con regiones pectoral y abdominal circulares. Esta área de su cuerpo contiene un grupo de músculos pectorales bastante desarrollados que pueden componer 25% de su peso. Estos músculos son importantes en la fuga de otros depredadores, permitiendo que la especie salte pequeñas distancias fuera del agua. Especie muy popular en acuarismo. Se alimenta solamente cerca de la superficie del agua, principalmente de insectos terrestres alados.
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Peixes</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Gasteropelecidae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.26305556</longitude>
+				<latitude>-4.838333333</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#fauna0</styleUrl>
+			<Point>
+				<coordinates>-65.26305556,-4.838333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="83">
+			<name>Piaba</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/fauna.png</href></Icon>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>Piaba</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/83.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+					<font face="Tahoma" size="3" color="#3498d5">
+
+
+				<b id="txt_tipo_nome_cientifico_es" style="display:inline">Nombre científico</b>: Moenkhausia latissima			</font>
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						"Esta especie tiene como característica marcante la presencia de una mancha oscura alargada horizontalmente.
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Peixes</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Characidae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.14944444</longitude>
+				<latitude>-4.879722222</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#fauna0</styleUrl>
+			<Point>
+				<coordinates>-65.14944444,-4.879722222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="272">
+			<name>Psychotria spectabilis Steyerm.</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/flora.png</href></Icon>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>Psychotria spectabilis Steyerm.</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/272.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						Arbolete de sub-bosque, con ramas verdosas pilosas. Sus hojas son simples y opuestas. Posee brácteas naranja rojizo y flores tubulares rojizas. Ocurre de forma repartida en selva de tierra firme. Su ecología es poco conocida, principalmente en cuanto a sus polinizadores.
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Dicotiledônea</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Rubiaceae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.15333333</longitude>
+				<latitude>-4.885833333</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#flora0</styleUrl>
+			<Point>
+				<coordinates>-65.15333333,-4.885833333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="94">
+			<name>&quot;Cobra coral falsa, cobra-de-duas-cabeças&quot;</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/fauna.png</href></Icon>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>"Cobra coral falsa, 
+cobra-de-duas-cabeças"</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/94.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+					<font face="Tahoma" size="3" color="#3498d5">
+
+
+				<b id="txt_tipo_nome_cientifico_es" style="display:inline">Nombre científico</b>: Anilius scytale			</font>
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						"Presenta alternancia de anillos negros y rojos, característica que la confunde con una serpiente coral. Ocupa principalmente ambiente terrestre, con hábito fosorial y, eventualmente, ambiente acuático. Los principales ítems de su dieta son vertebrados fosoriales, como anfisbénidos, y acuáticos,
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Serpentes</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Aniliidae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.21077778</longitude>
+				<latitude>-4.901027778</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#fauna0</styleUrl>
+			<Point>
+				<coordinates>-65.21077778,-4.901027778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="99">
+			<name>Cobra-cipó, cobra-verde</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/fauna.png</href></Icon>
+			<description><![CDATA[<tr>
+		<td width="10"></td>
+		<td height="24" align="left" valign="top">
+			<a href="http://www2.petrobras.com.br/minisite/urucu/urucu.html">
+				<font face="Tahoma" size="4" color="#318fca">
+
+
+					<b id="txt_tipo_nome_es" style="display:inline">Nombre popular</b>: <b>Cobra-cipó, cobra-verde</b>
+				</font><br>
+			</a>
+		</td>
+		<td width="10"></td>
+	</tr>
+	<tr>
+		<td width="10"></td>
+		<td align="center" valign="top"><img width="320" src="http://www.hotsitespetrobras.com.br/rao2008/earth/especies/99.jpg"/></td>
+		<td width="10"></td>
+	</tr>							
+	<tr>
+	<td width="10"></td>
+	<td align="left" valign="middle" height="20">
+					<font face="Tahoma" size="3" color="#3498d5">
+
+
+				<b id="txt_tipo_nome_cientifico_es" style="display:inline">Nombre científico</b>: Leptophis ahaetulla			</font>
+				<a href="http://picasa.google.com/">
+			<img src="http://www.hotsitespetrobras.com.br/rao2008/earth/picasa.png" valign="center" align="right">
+		</a>
+	</td>
+	<td width="10"></td>
+</tr>	<tr>
+		<td width="10"></td>
+		<td>
+			<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#ede8e2">
+				<tr><td height="15" colspan="2"></td></tr>
+<tr id="content_aba_informacoes_gerais">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_1"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_inf_es" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_1"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_saiba_es" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>
+<tr id="content_aba_saiba_mais" style="display:inline">
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_dir_off.jpg" valign="center" align="center">
+		<a href="#" id="bt_informacoes_gerais_2"><font face="Tahoma" size="3" color="#ffffff">
+
+			<b id="txt_aba_inf_es_2" style="display:inline">Información General</b>
+
+		</font></a>
+	</td>
+	<td width="163" height="32" background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_aba_esq_on.jpg" valign="center" align="center">
+		<a href="#" id="bt_saiba_mais_2"><font face="Tahoma" size="3" color="#3498d5">
+
+			<b id="txt_aba_saiba_es_2" style="display:inline">Leer más</b>
+
+		</font></a>
+	</td>
+</tr>				<tr>
+					<td colspan="2" bgcolor="#ffffff">
+						
+<div id="informacoes_gerais">
+	<div id="descricao_idioma_es" style="display:inline;padding:0; margin:0"> 
+		<table width="324" cellspacing="0" cellpadding="0" border="0">
+			<tr><td colspan="3" height="8"></td></tr>
+			<tr height="70">
+				<td width="10"></td>
+				<td width="304" align="left">
+					<font face="Tahoma" size="3" color="#000000">
+						Serpiente diurna, arborícola, con cuerpo delgado y cola larga. Ocurre tanto en vegetación primaria como en áreas alteradas, utilizando la vegetación para alimentarse y dormir. Se alimenta principalmente de anfibios y pequeños lagartos. Cuando es amenazada, se levanta y abre la boca para intimidar al depredador.
+					</font>
+				</td>
+				<td width="10"></td>
+			</tr>
+			<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+		</table>
+	</div>
+</div>
+						<div id="saiba_mais" style="display:inline">
+	<table width="324" cellspacing="0" cellpadding="0" border="0">
+		<tr><td colspan="3" height="8"></td></tr>
+		<tr height="70">
+			<td width="10"></td>
+			<td width="304" align="left">
+				<font face="Tahoma" size="3" color="#000000">
+
+					<span id="txt_saiba_mais_es" style="display:inline">El trabajo de Petrobras en la Província Petrolífera de Urucu desde 1988 es un ejemplo de que se puede actuar en el medio de la floresta respetando el ecosistema. El mapeo de la biodiversidad en el entorno de nuestra base de operaciones es un ejemplo de ello.</span>
+
+				</font>
+			</td>
+			<td width="10"></td>
+		</tr>
+		<tr><td colspan="3"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_rodape_central.jpg" border="0"></td></tr>
+	</table>
+</div>					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="10"></td>
+	</tr>
+	
+	<tr id="pre_download" style="display:inline"><td colspan="5" height="7"></td></tr>
+<tr id="download" style="display:inline">
+	<td colspan="5">
+		<table width="344" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td rowspan="4" width="67"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_livro.jpg" border="0"></td>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_topo-bk.jpg" border="0"></td>
+			</tr>
+			<tr>
+				<td width="277" height="30" bgcolor="#dad5ce" valign="center" align="left">
+					<font face="Tahoma" size="1" color="#666666">
+
+						<span id="txt_down_es" style="display:inline">Vea también en el libro Biodiversidad en la Província Petrolífera de Urucu el mapeo que Petrobras hace en Urucu</span>
+
+					</font><br>
+				</td>
+			</tr>
+			<tr>
+				<td background="http://www.hotsitespetrobras.com.br/rao2008/earth/bg_download_pdf.jpg" height="20" align="left" valign="center">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="http://www.hotsitespetrobras.com.br/rao2008/earth/Livro_Urucu_com_capa_2010.pdf">
+						<font face="Tahoma" size="3" color="#ffffff">
+							<b>&nbsp;
+
+								<span id="txt_bt_down_es" style="display:inline">Descargar</span>
+
+							(6.590kb)</b>
+						</font>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td width="277"><img src="http://www.hotsitespetrobras.com.br/rao2008/earth/img_box_rodape_rodape-bk.jpg" border="0"></td>
+			</tr>
+		</table>
+	</td>
+</tr>	<tr height="5" id="pre_grupo_e_familia"><td colspan="3">&nbsp;</td></tr>
+<tr id="grupo_e_familia">
+	<td width="10"></td>
+	<td>
+		<table width="324" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff">
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_grupo_es" style="display:inline">Grupo</b>
+
+				</td>
+				<td width="152">Serpentes</td>
+				<td width="10"></td>
+			</tr>
+			<tr height="25">
+				<td width="10"></td>
+				<td width="152">
+
+					<b id="txt_familia_es" style="display:inline">Familia</b>
+
+				</td>
+				<td width="152">Colubridae</td>
+				<td width="10"></td>
+			</tr>
+		</table>
+	</td>
+	<td width="10"></td>
+</tr>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.30555556</longitude>
+				<latitude>-4.877777778</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#fauna0</styleUrl>
+			<Point>
+				<coordinates>-65.30555556,-4.877777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="502">
+			<name>Aeroporto Base de Operações Geógo Pedro de Moura</name>
+			<Snippet maxLines="0"></Snippet>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/aero.png</href></Icon>
+			<description>Aeroporto Base de Operações Geólogo Pedro de Moura</description>
+			<LookAt>
+				<gx:TimeStamp><when>2008-08-07</when>
+</gx:TimeStamp>
+				<longitude>-65.349159</longitude>
+				<latitude>-4.885359</latitude>
+				<altitude>0</altitude>
+				<heading>25.07273222060082</heading>
+				<tilt>43.43260055574174</tilt>
+				<range>7349.00323080522</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#aero0</styleUrl>
+			<Point>
+				<coordinates>-65.349159,-4.885359,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

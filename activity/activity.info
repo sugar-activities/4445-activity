@@ -1,0 +1,9 @@
+[Activity]
+name = Mapa Ceibal
+activity_version = 5
+host_version = 1
+license = MIT
+icon = activity-map
+service_name = org.laptop.community.OfflineMaps
+class = map.Map
+show_launcher = 1

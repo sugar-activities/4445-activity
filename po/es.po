@@ -1,0 +1,119 @@
+#: activity/activity.info:2
+msgid "Map"
+msgstr "Mapa"
+
+#: constants.py:26
+msgid "Edit"
+msgstr "Editar"
+
+#: constants.py:27
+msgid "Search"
+msgstr "Buscar"
+
+#: constants.py:27
+msgid "Google import"
+msgstr "Importar de Google"
+
+#: constants.py:27
+msgid "OSM import"
+msgstr "Importar de OSM"
+
+#: constants.py:27
+msgid "Panoramio"
+msgstr "Fotos locales de Panoramio"
+
+#: constants.py:27
+msgid "LocationWiki"
+msgstr "Articulos locales de Wikipedia"
+
+#: constants.py:28
+msgid "Find:"
+msgstr "Buscar:"
+
+#: constants.py:29
+msgid "Tags:"
+msgstr "Marcadores:"
+
+#: constants.py
+msgid "Download"
+msgstr "Descargar"
+
+#: constants.py:30
+msgid "Save Search"
+msgstr "Guardar su busca"
+
+#: constants.py:31
+msgid "Connecting to Map Server"
+msgstr "Está conectando"
+
+#: constants.py:32
+msgid "Zoom In"
+msgstr "Magnificar"
+
+#: constants.py:33
+msgid "Zoom Out"
+msgstr "Magnificar Menos"
+
+#: constants.py:34
+msgid "Save"
+msgstr "Guardar"
+
+#: constants.py:35
+msgid "Density"
+msgstr "Density"
+
+#: constants.py:36
+msgid "Saved Map"
+msgstr "Mapa guardado"
+
+#: constants.py:37
+msgid "Describe Map"
+msgstr "Escribe sobre eso"
+
+#: constants.py:38
+msgid "Remove Map"
+msgstr "Cancela"
+
+#: constants.py:39
+msgid "Copy to Clipboard"
+msgstr "Copia"
+
+#: constants.py:40
+msgid "Add Media"
+msgstr "Multimedia"
+
+#: constants.py:41
+msgid "Add Info"
+msgstr "Escribir algo"
+
+#: constants.py:42
+msgid "Delete"
+msgstr "Cancelar"
+
+#: constants.py:43
+msgid "Library"
+msgstr "Biblioteca"
+
+#: constants.py:44
+msgid "Measure"
+msgstr "Medir"
+
+#: constants.py:45
+msgid "OurMaps"
+msgstr "NuestrosMapas"
+
+#: constants.py:46
+msgid "Latitude:"
+msgstr "Latitud:"
+
+#: constants.py:47
+msgid "Longitude:"
+msgstr "Longitud:"
+
+#: constants.py:48
+msgid "Description:"
+msgstr "Descripción:"
+
+#: constants.py:49
+msgid "lang=en"
+msgstr "lang=es"

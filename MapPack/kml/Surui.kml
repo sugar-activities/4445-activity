@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Surui.kml</name>
+	<Folder>
+		<name>Surui</name>
+		<open>1</open>
+		<Placemark>
+			<name>Tucán</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/Tucano.png</href></Icon>
+			<description>El canto del tucán es un mal presagio. Sus plumas se utilizan en tocados por los guerreros en la ceremonia de Mapimaim, que celebra la creación del mundo.</description>
+			<LookAt>
+				<longitude>-61.21304863817942</longitude>
+				<latitude>-11.0718192040531</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003253288690959081</heading>
+				<tilt>0</tilt>
+				<range>47541.97071956794</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle0</styleUrl>
+			<Point>
+				<coordinates>-61.21553368699617,-11.06206346625336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Primer contacto</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/firstcontact.png</href></Icon>
+			<description>Ubicación del primer contacto entre el pueblo Surui y topógrafos de la carretera amazónica, en el año 1969</description>
+			<LookAt>
+				<longitude>-61.36909994862781</longitude>
+				<latitude>-11.49639986080024</latitude>
+				<altitude>0</altitude>
+				<heading>-6.490716966196672e-011</heading>
+				<tilt>0</tilt>
+				<range>1008.534301488094</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle00</styleUrl>
+			<Point>
+				<coordinates>-61.36909994862782,-11.49639986080024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jaguar</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/Onca-Pintada.png</href></Icon>
+			<description>La densa selva tropical es el hábitat preferido del jaguar, que depende de bosques protegidos</description>
+			<LookAt>
+				<longitude>-61.31103220122983</longitude>
+				<latitude>-10.85535599780624</latitude>
+				<altitude>0</altitude>
+				<heading>-1.858523652775183e-007</heading>
+				<tilt>0</tilt>
+				<range>1878.554635238805</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle1</styleUrl>
+			<Point>
+				<coordinates>-61.31104113540033,-10.85504013447162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Anacardo</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/Cajueiro.png</href></Icon>
+			<description>El anacardo es un alimento para el pueblo Surui, y para muchos animales en su territorio</description>
+			<LookAt>
+				<longitude>-61.20821419754033</longitude>
+				<latitude>-10.9214521586144</latitude>
+				<altitude>0</altitude>
+				<heading>-0.006546169799020071</heading>
+				<tilt>0</tilt>
+				<range>116944.3465443277</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle2</styleUrl>
+			<Point>
+				<coordinates>-61.07435804228627,-10.81010234392689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Historia</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/Historia.png</href></Icon>
+			<description>El Surui protegen a su historia para proteger su cultura y valores.</description>
+			<LookAt>
+				<longitude>-61.08997500082386</longitude>
+				<latitude>-11.05272960957737</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01863563972402913</heading>
+				<tilt>0</tilt>
+				<range>127980.6488367556</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<coordinates>-61.30492182519099,-11.23672500778566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carpincho</name>
+			<Icon><href>file:///home/olpc/Activities/OfflineMaps.activity/MapPack/kml/Capivara.png</href></Icon>
+			<description>Para los Surui, el carpincho es un animal sagrado que no se pueden comer o muertos. En el folklore Surui, los &quot;oasabirah&quot; fueron una vez las personas.</description>
+			<LookAt>
+				<longitude>-61.15307347979448</longitude>
+				<latitude>-10.87988625487015</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004797215783405405</heading>
+				<tilt>0</tilt>
+				<range>100535.6006412091</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle3</styleUrl>
+			<Point>
+				<coordinates>-61.00553391727551,-10.76913252140952,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

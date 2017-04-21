@@ -1,0 +1,3841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name><![CDATA[Sea Lion South America]]></name>
+  <description><![CDATA[]]></description>
+  <atom:autor>
+    <atom:name></atom:name>
+    <atom:uri></atom:uri>
+  </atom:autor>
+  <atom:contributor>
+    <atom:name>Judith Cruxent</atom:name>
+    <atom:uri>http://geocommons.com/users/Judithcruxent</atom:uri>    
+  </atom:contributor>
+  <atom:rights>Creative Commons Attribution-Share Alike 2.0</atom:rights>  
+  <atom:link rel="self" href="http://geocommons.com/overlays/91350.kml" type="application/vnd.google-earth.kml+xml"/>
+  <atom:link rel="edit" href="http://geocommons.com/overlays/91350.atom" type="application/atom+xml;type=entry"/>
+  <atom:link rel="alternate" href="http://geocommons.com/overlays/91350.atom" type="application/atom+xml"/>
+  <atom:link rel="alternate" href="http://geocommons.com/overlays/91350.html" type="text/html"/>  
+  <TimeStamp></TimeStamp>
+  
+      <!-- Poly Style -->
+      
+      <StyleMap id="default">
+      <Pair>
+      	<key>normal</key>
+        <styleUrl>#default_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#default_highlight</styleUrl>
+      </Pair>
+      </StyleMap>
+      
+    <Style id="default_normal">
+    <IconStyle>
+      <scale>1</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+    	<scale>0</scale>
+    
+        </LabelStyle>
+        <LineStyle>
+          <color>eeff6600</color>
+          <width>3</width>
+        
+        </LineStyle>
+        <PolyStyle>
+          <color>99ff6600</color>
+          <outline>1</outline>
+          <fill>1</fill>
+        </PolyStyle>
+    <BalloonStyle>
+      <bgColor>ffffff</bgColor>
+      <text>
+        <![CDATA[
+            <p><b><font color="#000000">$[lastindexed/displayName]:</font></b> <font color="#555555">$[lastindexed]</font></p>
+            <p><b><font color="#000000">$[identificationdate/displayName]:</font></b> <font color="#555555">$[identificationdate]</font></p>
+            <p><b><font color="#000000">$[Clasificacioninterpreted/displayName]:</font></b> <font color="#555555">$[Clasificacioninterpreted]</font></p>
+            <p><b><font color="#000000">$[coordinateprecision/displayName]:</font></b> <font color="#555555">$[coordinateprecision]</font></p>
+            <p><b><font color="#000000">$[maxProfunda/displayName]:</font></b> <font color="#555555">$[maxProfunda]</font></p>
+            <p><b><font color="#000000">$[collectorname/displayName]:</font></b> <font color="#555555">$[collectorname]</font></p>
+            <p><b><font color="#000000">$[latitud/displayName]:</font></b> <font color="#555555">$[latitud]</font></p>
+            <p><b><font color="#000000">$[guid/displayName]:</font></b> <font color="#555555">$[guid]</font></p>
+            <p><b><font color="#000000">$[catalogueno/displayName]:</font></b> <font color="#555555">$[catalogueno]</font></p>
+            <p><b><font color="#000000">$[class/displayName]:</font></b> <font color="#555555">$[class]</font></p>
+            <p><b><font color="#000000">$[continente/displayName]:</font></b> <font color="#555555">$[continente]</font></p>
+            <p><b><font color="#000000">$[region/displayName]:</font></b> <font color="#555555">$[region]</font></p>
+            <p><b><font color="#000000">$[gbifwebserviceurl/displayName]:</font></b> <font color="#555555">$[gbifwebserviceurl]</font></p>
+            <p><b><font color="#000000">$[imageurl/displayName]:</font></b> <font color="#555555">$[imageurl]</font></p>
+            <p><b><font color="#000000">$[filo/displayName]:</font></b> <font color="#555555">$[filo]</font></p>
+            <p><b><font color="#000000">$[orden/displayName]:</font></b> <font color="#555555">$[orden]</font></p>
+            <p><b><font color="#000000">$[region/displayName]:</font></b> <font color="#555555">$[region]</font></p>
+            <p><b><font color="#000000">$[departamento/displayName]:</font></b> <font color="#555555">$[departamento]</font></p>
+            <p><b><font color="#000000">$[minProfunda/displayName]:</font></b> <font color="#555555">$[minProfunda]</font></p>
+            <p><b><font color="#000000">$[gbifportalurl/displayName]:</font></b> <font color="#555555">$[gbifportalurl]</font></p>
+            <p><b><font color="#000000">$[fieldnumber/displayName]:</font></b> <font color="#555555">$[fieldnumber]</font></p>
+            <p><b><font color="#000000">$[collectioncode/displayName]:</font></b> <font color="#555555">$[collectioncode]</font></p>
+            <p><b><font color="#000000">$[autor/displayName]:</font></b> <font color="#555555">$[autor]</font></p>
+            <p><b><font color="#000000">$[reino/displayName]:</font></b> <font color="#555555">$[reino]</font></p>
+            <p><b><font color="#000000">$[Pais/displayName]:</font></b> <font color="#555555">$[Pais]</font></p>
+            <p><b><font color="#000000">$[altitudprecision/displayName]:</font></b> <font color="#555555">$[altitudprecision]</font></p>
+            <p><b><font color="#000000">$[FechaRecogida/displayName]:</font></b> <font color="#555555">$[FechaRecogida]</font></p>
+            <p><b><font color="#000000">$[dataEditor/displayName]:</font></b> <font color="#555555">$[dataEditor]</font></p>
+            <p><b><font color="#000000">$[dataset/displayName]:</font></b> <font color="#555555">$[dataset]</font></p>
+            <p><b><font color="#000000">$[collectornumber/displayName]:</font></b> <font color="#555555">$[collectornumber]</font></p>
+            <p><b><font color="#000000">$[basisofrecord/displayName]:</font></b> <font color="#555555">$[basisofrecord]</font></p>
+            <p><b><font color="#000000">$[Clasificacion/displayName]:</font></b> <font color="#555555">$[Clasificacion]</font></p>
+            <p><b><font color="#000000">$[genero/displayName]:</font></b> <font color="#555555">$[genero]</font></p>
+            <p><b><font color="#000000">$[locality/displayName]:</font></b> <font color="#555555">$[locality]</font></p>
+            <p><b><font color="#000000">$[EditorPais/displayName]:</font></b> <font color="#555555">$[EditorPais]</font></p>
+            <p><b><font color="#000000">$[cellid/displayName]:</font></b> <font color="#555555">$[cellid]</font></p>
+            <p><b><font color="#000000">$[familia/displayName]:</font></b> <font color="#555555">$[familia]</font></p>
+            <p><b><font color="#000000">$[longitud/displayName]:</font></b> <font color="#555555">$[longitud]</font></p>
+            <p><b><font color="#000000">$[centicellid/displayName]:</font></b> <font color="#555555">$[centicellid]</font></p>
+            <p><b><font color="#000000">$[maxaltitud/displayName]:</font></b> <font color="#555555">$[maxaltitud]</font></p>
+            <p><b><font color="#000000">$[identifier/displayName]:</font></b> <font color="#555555">$[identifier]</font></p>
+            <p><b><font color="#000000">$[Paisinterpreted/displayName]:</font></b> <font color="#555555">$[Paisinterpreted]</font></p>
+            <p><b><font color="#000000">$[minaltitud/displayName]:</font></b> <font color="#555555">$[minaltitud]</font></p>
+            <p><b><font color="#000000">$[institutioncode/displayName]:</font></b> <font color="#555555">$[institutioncode]</font></p>
+          <p align="center"><font size=3 face=arial color="#0099FF">Powered by GeoCommons</font></p>
+        ]]>
+      </text>
+    </BalloonStyle>
+    </Style>
+      
+      
+    <Style id="default_highlight">
+    <IconStyle>
+      <scale>1</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+    	<scale>0</scale>
+    
+        </LabelStyle>
+        <LineStyle>
+          <color>ddffffff</color>
+          <width>2</width>
+        
+        </LineStyle>
+        <PolyStyle>
+          <color>ccff6600</color>
+          <outline>1</outline>
+          <fill>1</fill>
+        </PolyStyle>
+    <BalloonStyle>
+      <bgColor>ffffff</bgColor>
+      <text>
+        <![CDATA[
+            <p><b><font color="#000000">$[lastindexed/displayName]:</font></b> <font color="#555555">$[lastindexed]</font></p>
+            <p><b><font color="#000000">$[identificationdate/displayName]:</font></b> <font color="#555555">$[identificationdate]</font></p>
+            <p><b><font color="#000000">$[Clasificacioninterpreted/displayName]:</font></b> <font color="#555555">$[Clasificacioninterpreted]</font></p>
+            <p><b><font color="#000000">$[coordinateprecision/displayName]:</font></b> <font color="#555555">$[coordinateprecision]</font></p>
+            <p><b><font color="#000000">$[maxProfunda/displayName]:</font></b> <font color="#555555">$[maxProfunda]</font></p>
+            <p><b><font color="#000000">$[collectorname/displayName]:</font></b> <font color="#555555">$[collectorname]</font></p>
+            <p><b><font color="#000000">$[latitud/displayName]:</font></b> <font color="#555555">$[latitud]</font></p>
+            <p><b><font color="#000000">$[guid/displayName]:</font></b> <font color="#555555">$[guid]</font></p>
+            <p><b><font color="#000000">$[catalogueno/displayName]:</font></b> <font color="#555555">$[catalogueno]</font></p>
+            <p><b><font color="#000000">$[class/displayName]:</font></b> <font color="#555555">$[class]</font></p>
+            <p><b><font color="#000000">$[continente/displayName]:</font></b> <font color="#555555">$[continente]</font></p>
+            <p><b><font color="#000000">$[region/displayName]:</font></b> <font color="#555555">$[region]</font></p>
+            <p><b><font color="#000000">$[gbifwebserviceurl/displayName]:</font></b> <font color="#555555">$[gbifwebserviceurl]</font></p>
+            <p><b><font color="#000000">$[imageurl/displayName]:</font></b> <font color="#555555">$[imageurl]</font></p>
+            <p><b><font color="#000000">$[filo/displayName]:</font></b> <font color="#555555">$[filo]</font></p>
+            <p><b><font color="#000000">$[orden/displayName]:</font></b> <font color="#555555">$[orden]</font></p>
+            <p><b><font color="#000000">$[region/displayName]:</font></b> <font color="#555555">$[region]</font></p>
+            <p><b><font color="#000000">$[departamento/displayName]:</font></b> <font color="#555555">$[departamento]</font></p>
+            <p><b><font color="#000000">$[minProfunda/displayName]:</font></b> <font color="#555555">$[minProfunda]</font></p>
+            <p><b><font color="#000000">$[gbifportalurl/displayName]:</font></b> <font color="#555555">$[gbifportalurl]</font></p>
+            <p><b><font color="#000000">$[fieldnumber/displayName]:</font></b> <font color="#555555">$[fieldnumber]</font></p>
+            <p><b><font color="#000000">$[collectioncode/displayName]:</font></b> <font color="#555555">$[collectioncode]</font></p>
+            <p><b><font color="#000000">$[autor/displayName]:</font></b> <font color="#555555">$[autor]</font></p>
+            <p><b><font color="#000000">$[reino/displayName]:</font></b> <font color="#555555">$[reino]</font></p>
+            <p><b><font color="#000000">$[Pais/displayName]:</font></b> <font color="#555555">$[Pais]</font></p>
+            <p><b><font color="#000000">$[altitudprecision/displayName]:</font></b> <font color="#555555">$[altitudprecision]</font></p>
+            <p><b><font color="#000000">$[FechaRecogida/displayName]:</font></b> <font color="#555555">$[FechaRecogida]</font></p>
+            <p><b><font color="#000000">$[dataEditor/displayName]:</font></b> <font color="#555555">$[dataEditor]</font></p>
+            <p><b><font color="#000000">$[dataset/displayName]:</font></b> <font color="#555555">$[dataset]</font></p>
+            <p><b><font color="#000000">$[collectornumber/displayName]:</font></b> <font color="#555555">$[collectornumber]</font></p>
+            <p><b><font color="#000000">$[basisofrecord/displayName]:</font></b> <font color="#555555">$[basisofrecord]</font></p>
+            <p><b><font color="#000000">$[Clasificacion/displayName]:</font></b> <font color="#555555">$[Clasificacion]</font></p>
+            <p><b><font color="#000000">$[genero/displayName]:</font></b> <font color="#555555">$[genero]</font></p>
+            <p><b><font color="#000000">$[locality/displayName]:</font></b> <font color="#555555">$[locality]</font></p>
+            <p><b><font color="#000000">$[EditorPais/displayName]:</font></b> <font color="#555555">$[EditorPais]</font></p>
+            <p><b><font color="#000000">$[cellid/displayName]:</font></b> <font color="#555555">$[cellid]</font></p>
+            <p><b><font color="#000000">$[familia/displayName]:</font></b> <font color="#555555">$[familia]</font></p>
+            <p><b><font color="#000000">$[longitud/displayName]:</font></b> <font color="#555555">$[longitud]</font></p>
+            <p><b><font color="#000000">$[centicellid/displayName]:</font></b> <font color="#555555">$[centicellid]</font></p>
+            <p><b><font color="#000000">$[maxaltitud/displayName]:</font></b> <font color="#555555">$[maxaltitud]</font></p>
+            <p><b><font color="#000000">$[identifier/displayName]:</font></b> <font color="#555555">$[identifier]</font></p>
+            <p><b><font color="#000000">$[Paisinterpreted/displayName]:</font></b> <font color="#555555">$[Paisinterpreted]</font></p>
+            <p><b><font color="#000000">$[minaltitud/displayName]:</font></b> <font color="#555555">$[minaltitud]</font></p>
+            <p><b><font color="#000000">$[institutioncode/displayName]:</font></b> <font color="#555555">$[institutioncode]</font></p>
+          <p align="center"><font size=3 face=arial color="#0099FF">Powered by GeoCommons</font></p>
+        ]]>
+      </text>
+    </BalloonStyle>
+    </Style>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-09-28 16:28:39.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[J. Tarras]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[GNM:Mammalia:1840-1809]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[1840-1809]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=2744739]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Montevideo]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/2744739]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[Blainville]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[GBIF-Sweden]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Mammals of the Gothenburg Natural History Museum]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria byronia (Blainville 1820)]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[Sweden]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[GNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+	
+	
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2009-08-08 18:06:01.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[T. Brooks]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[154203.7423570]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=152189677]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/152189677]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2009-08-08 18:06:01.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[H. Smith]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[239139.7283452]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=152189563]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/152189563]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Isla De Lobos]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2009-08-08 18:06:01.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[H. Smith]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[239138.7283451]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=152189562]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/152189562]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Isla De Lobos]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2009-08-08 18:06:01.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[H. Smith]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[239137.7283450]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=152189561]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/152189561]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Isla De Lobos]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-08-24 22:24:20.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[A. Ximenez]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[M-205919]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=214092235]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[Tacuarembo]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Tacuarembo]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[0]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/214092235]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Mammal]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[American Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Mammals]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[40 kilometers northwest of Tacuarembo]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[0]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[0]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[AMNH]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-08-11 11:46:10.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[Cappozzo L. & Neposnabi]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[MACN:MACN-Ma:20594-xx]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[20594-xx]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[América del Sur]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=223257166]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/223257166]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[MACN-Ma]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1990-07-31 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[Museo Argentino de Ciencias Naturales]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Colección Nacional de Mastozoología - Museo Argentino de Ciencias Naturales 'Bernardino Rivadavia']]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[Argentina]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[MACN]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-10-16 10:09:18.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[H. Smith]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[239138]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=240260887]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/240260887]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Isla De Lobos]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-10-16 10:09:20.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[T. Brooks]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[154203]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=240261082]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/240261082]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-10-16 10:09:20.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[H. Smith]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[239139]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=240261121]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/240261121]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Isla De Lobos]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-10-16 10:09:20.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[H. Smith]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[239137]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=240261122]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Maldonado]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/240261122]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[No Number]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Isla De Lobos]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2009-08-08 18:06:01.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[R. Brownell]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[-34.4]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[501115.7378526]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=152189601]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Rocha]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/152189601]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1972-09-10 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[RLB 765]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Punta Del Diablo]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[19826]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[-153.8]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[62]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+<coordinates>-153.8,-34.4</coordinates>
+</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-10-16 10:09:20.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[R. Brownell]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[-34.367]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[501115]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=240261051]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Rocha]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/240261051]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1972-09-10 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[RLB 765]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Punta Del Diablo]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[19826]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[-153.767]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[62]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+<coordinates>-153.767,-34.367</coordinates>
+</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-08-14 19:53:49.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[Brownell R L]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[-34.0333]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[031699]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=79764871]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/79764871]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1969-02-04 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[Los Angeles region Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Vertebrate specimens]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[RLB 453A]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Punta del Diablo]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[19926]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[-53.55]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[94]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[LACM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+<coordinates>-53.55,-34.0333</coordinates>
+</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2009-08-08 18:06:01.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[R. Brownell]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[-34.4]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[501114.7378525]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=152189600]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Rocha]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/152189600]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1972-09-05 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[RLB 755]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Punta Del Diablo]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[19926]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[-53.8]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[62]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+<coordinates>-53.8,-34.4</coordinates>
+</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-10-16 10:09:16.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[R. Brownell]]></value>
+          </Data>
+          <Data name='latitud'>
+            <displayName><![CDATA[latitud]]></displayName>
+            <value><![CDATA[-34.367]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[501114]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[South America South Atlantic Ocean]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=240260699]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[Rocha]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/240260699]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Vertebrate Zoology; Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1972-09-05 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[National Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[NMNH Vertebrate Zoology Mammals Collections]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[RLB 755]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria flavescens]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[Punta Del Diablo]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[19926]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='longitud'>
+            <displayName><![CDATA[longitud]]></displayName>
+            <value><![CDATA[-53.767]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[62]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[USNM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+<coordinates>-53.767,-34.367</coordinates>
+</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-08-14 19:53:50.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[Otto W]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[051254]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=79784300]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/79784300]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[Los Angeles region Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Vertebrate specimens]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[EDM 586]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[20644]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[0]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[LACM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+	<coordinates>-54.9508,-34.9415</coordinates>
+	</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-08-14 19:53:55.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[Heyning J E]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[095771]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=79828540]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/79828540]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1999-09-23 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[Los Angeles region Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Vertebrate specimens]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[JEH 501]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[20644]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[0]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[LACM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+<coordinates>-54.9794,-34.95448</coordinates>
+</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-08-14 19:53:55.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[Janiger D S]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[095810]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=79828579]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/79828579]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[1999-09-23 00:00:00.0]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[Los Angeles region Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Vertebrate specimens]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[20644]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[0]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[LACM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+<coordinates>-54.1443,-34.6636</coordinates>
+</Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#default</styleUrl>
+      <name><![CDATA[data Editor:]]></name>
+      
+      <ExtendedData>
+          <Data name='lastindexed'>
+            <displayName><![CDATA[last indexed]]></displayName>
+            <value><![CDATA[2010-08-14 19:53:49.0]]></value>
+          </Data>
+          <Data name='identificationdate'>
+            <displayName><![CDATA[identification date]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Clasificacioninterpreted'>
+            <displayName><![CDATA[scientific name (interpreted)]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='coordinateprecision'>
+            <displayName><![CDATA[coordinate precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='maxProfunda'>
+            <displayName><![CDATA[max Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectorname'>
+            <displayName><![CDATA[collector name]]></displayName>
+            <value><![CDATA[Otto W]]></value>
+          </Data>
+          <Data name='guid'>
+            <displayName><![CDATA[guid]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='catalogueno'>
+            <displayName><![CDATA[catalogue no]]></displayName>
+            <value><![CDATA[031263]]></value>
+          </Data>
+          <Data name='clase'>
+            <displayName><![CDATA[class]]></displayName>
+            <value><![CDATA[Mammalia]]></value>
+          </Data>
+          <Data name='continente'>
+            <displayName><![CDATA[continent or ocean]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[South America]]></value>
+          </Data>
+          <Data name='gbifwebserviceurl'>
+            <displayName><![CDATA[gbif webservice url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/ws/rest/occurrence/get?key=79764562]]></value>
+          </Data>
+          <Data name='imageurl'>
+            <displayName><![CDATA[image url]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='filo'>
+            <displayName><![CDATA[filo]]></displayName>
+            <value><![CDATA[Chordata]]></value>
+          </Data>
+          <Data name='orden'>
+            <displayName><![CDATA[orden]]></displayName>
+            <value><![CDATA[Carnivora]]></value>
+          </Data>
+          <Data name='region'>
+            <displayName><![CDATA[region]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='departamento'>
+            <displayName><![CDATA[state/province]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='minProfunda'>
+            <displayName><![CDATA[min Profunda]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='gbifportalurl'>
+            <displayName><![CDATA[gbif portal url]]></displayName>
+            <value><![CDATA[http://data.gbif.org/occurrences/79764562]]></value>
+          </Data>
+          <Data name='fieldnumber'>
+            <displayName><![CDATA[field number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='collectioncode'>
+            <displayName><![CDATA[collection code]]></displayName>
+            <value><![CDATA[Mammals]]></value>
+          </Data>
+          <Data name='autor'>
+            <displayName><![CDATA[autor]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='reino'>
+            <displayName><![CDATA[reino]]></displayName>
+            <value><![CDATA[Animalia]]></value>
+          </Data>
+          <Data name='Pais'>
+            <displayName><![CDATA[Pais]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='altitudprecision'>
+            <displayName><![CDATA[altitud precision]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='FechaRecogida'>
+            <displayName><![CDATA[date collected]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='dataEditor'>
+            <displayName><![CDATA[data Editor]]></displayName>
+            <value><![CDATA[Los Angeles region Museum of Natural History]]></value>
+          </Data>
+          <Data name='dataset'>
+            <displayName><![CDATA[dataset]]></displayName>
+            <value><![CDATA[Vertebrate specimens]]></value>
+          </Data>
+          <Data name='collectornumber'>
+            <displayName><![CDATA[collector number]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='basisofrecord'>
+            <displayName><![CDATA[basis of record]]></displayName>
+            <value><![CDATA[Specimen]]></value>
+          </Data>
+          <Data name='Clasificacion'>
+            <displayName><![CDATA[scientific name]]></displayName>
+            <value><![CDATA[Otaria byronia]]></value>
+          </Data>
+          <Data name='genero'>
+            <displayName><![CDATA[genero]]></displayName>
+            <value><![CDATA[Otaria]]></value>
+          </Data>
+          <Data name='locality'>
+            <displayName><![CDATA[locality]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='EditorPais'>
+            <displayName><![CDATA[Editor Pais]]></displayName>
+            <value><![CDATA[United States]]></value>
+          </Data>
+          <Data name='cellid'>
+            <displayName><![CDATA[cell id]]></displayName>
+            <value><![CDATA[20644]]></value>
+          </Data>
+          <Data name='familia'>
+            <displayName><![CDATA[familia]]></displayName>
+            <value><![CDATA[Otariidae]]></value>
+          </Data>
+          <Data name='centicellid'>
+            <displayName><![CDATA[centi cell id]]></displayName>
+            <value><![CDATA[0]]></value>
+          </Data>
+          <Data name='maxaltitud'>
+            <displayName><![CDATA[max altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='identifier'>
+            <displayName><![CDATA[identifier]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='Paisinterpreted'>
+            <displayName><![CDATA[Pais (interpreted)]]></displayName>
+            <value><![CDATA[Uruguay]]></value>
+          </Data>
+          <Data name='minaltitud'>
+            <displayName><![CDATA[min altitud]]></displayName>
+            <value><![CDATA[]]></value>
+          </Data>
+          <Data name='institutioncode'>
+            <displayName><![CDATA[institution code]]></displayName>
+            <value><![CDATA[LACM]]></value>
+          </Data>
+      </ExtendedData>
+        <Point>
+	<coordinates>-54.121957,-34.95715</coordinates>
+	</Point>
+</Document>
+</kml>

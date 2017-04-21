@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>UNEP-Environmental</name>
+	<open>1</open>
+	<Placemark>
+		<name>Brasilia</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-47.911537</longitude>
+			<latitude>-15.784671</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>135129</range>
+		</LookAt>
+		<styleUrl>#UNEP_ecosystems_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Brazil</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_5/site_5.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_5_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_5_g_popup.jpg" width="380"/><br/>Inaugurado el 21 de abril de 1960, la nueva capital de Brasil de Brasilia se inició con una población de 140 000 y un plan maestro para el crecimiento y el desarrollo cuidadosamente controlado que limitaría la ciudad a 500 000. Urbanista Lucio Costa y el arquitecto Oscar Niemeyer, la intención de que todos los elementos - desde el diseño de los distritos residenciales y administrativos a la simetría de los propios edificios - deben actuar en armonía con el diseño general de la ciudad. Este consistía en un núcleo en forma de ave con las áreas residenciales situadas entre el cerco "brazos" del lago Paranoá. La ciudad fue un hito en la planificación de la ciudad y fue reconocido como Patrimonio de la Humanidad en 1987. <br /> <br /> A medida que estas imágenes revelan, el desarrollo urbano no planificado surgió en las franjas de Brasilia, que resulta en una colección de las zonas urbanas "satélites" alrededor de la ciudad, a costa de gran parte de la superficie forestal. Varios nuevos embalses se han construido desde el nacimiento de Brasilia, pero el Parque Nacional de Brasilia se destaca como una extensión con vegetación densa de color verde oscuro que se ha mantenido relativamente sin cambios. En 1970, la población de Brasilia y sus satélites fue de aproximadamente 500 000. La población actual supera los 2 000 000.]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=5</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Brasilia</value>
+			</description>
+		</exdata>
+			<Point>
+				<coordinates>-47.526799,-15.391477,0</coordinates>
+			</Point>
+	</Placemark>
+	<Placemark>
+		<name>Iguazú</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-54.634708</longitude>
+			<latitude>-25.676627</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>190489</range>
+		</LookAt>
+		<styleUrl>#UNEP_ecosystems_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Paraguay, Brazil, Argentina</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_1/site_1.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_1_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_1_g_popup.jpg" width="380"/><br/>Parque Nacional Iguazú, ubicado en la Argentina cerca de sus fronteras con Brasil y Paraguay, contiene los restos del gran peligro de lluvia Selva Paranaense. Aislado de otros bosques tropicales por barreras naturales, el Paranaense desarrollado un ecosistema distinto y muy diversas, con miles de especies de mamíferos, aves, reptiles, anfibios y único en la zona. Las famosas Cataratas del Iguazú están ubicadas dentro de los límites del Parque Nacional y son compartidos por Argentina y Brasil. <br /> <br /> Entre 1973 y 2003, los cambios dramáticos en el paisaje se produjo en esta región. En 1973 la superficie forestal distribuidas en las fronteras de las tres naciones. Para 2003, sin embargo, grandes áreas del bosque en Paraguay y Brasil, y cantidades más pequeñas en la Argentina, se había convertido en otras formas de ocupación del suelo, creando un mosaico de áreas de uso de diferentes colores de la tierra. Tenga en cuenta la variación en los patrones de cobertura del suelo entre los diferentes países - reflexiones de los diferentes usos del suelo /> <br políticas y prácticas.]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=1</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Iguazú</value>
+			</description>
+		</exdata>
+			<Point>
+				<coordinates>-54.099336,-25.109068,0</coordinates>
+			</Point>
+	</Placemark>
+	<Placemark>
+		<name>Santa Cruz</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-62.380606</longitude>
+			<latitude>-17.359134</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>280800</range>
+		</LookAt>
+		<styleUrl>#UNEP_ecosystems_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Bolivia</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_31/site_31.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_31_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_31_g_popup.jpg" width="380"/><br/>Santa Cruz se encuentra en los países ricos de Bolivia, las fértiles tierras bajas, una región muy apta para la agricultura. En la imagen de satélite de 1975, paisaje forestal de la región aparece como una extensión densa, esencialmente continua de color verde oscuro que se extiende hasta el Río Grande (Guapay) Río. En 1986 se habían construido caminos que unía la región a los centros de población. Como resultado, un gran número de personas que emigraron a la zona. Un gran esfuerzo de desarrollo agrícola (el proyecto Tierras Baja) llevó a la deforestación generalizada como los bosques eran claras y se convierte en pastizales y tierras de cultivo. Para 2003, casi toda la región se había convertido en tierras agrícolas, incluyendo la zona al este de La Esperanza a través del río. En la zona norte y el oeste de Los Cafes (arriba a la izquierda), el aviso de la red de plazas en el paisaje, cada uno con un patrón interno en forma de estrella. En el centro de cada cuadrado es una pequeña comunidad.]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=31</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Santa Cruz</value>
+			</description>
+		</exdata>
+			<Point>
+				<coordinates>-61.554229,-16.81069,0</coordinates>
+			</Point>
+	</Placemark>
+	<Placemark>
+		<name>Escondida</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-69.062258</longitude>
+			<latitude>-24.298132</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>47662</range>
+		</LookAt>
+		<styleUrl>#UNEP_resource_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Chile</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_98/site_98.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_98_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_98_g_popup.jpg" width="380"/><br/>Ubicado a una altitud de 3 050 m, Escondida de Chile El mío es un tajo abierto de cobre, oro y plata y la mía también es la mayor mina de cobre en el mundo. Aislado en el yermo y árido desierto de Atacama en el país del norte, la mina Escondida se basa principalmente en los campos y externo para el agua utilizada en sus operaciones mineras. A diferencia de las operaciones mineras similares, sin embargo, Escondida tiene un dique de colas reconstruido, que aparece en la imagen de 1989 como un parche blanco en la esquina inferior izquierda. Embalses de este tipo ayudan a reducir el consumo de agua y mejorar la conservación del agua, dos áreas donde la actividad minera generalmente se quedan cortos. La mina Escondida también minimiza el impacto de su funcionamiento sobre el medio ambiente por medio de una tubería subterránea de 170 km de largo (106 millas) de concentrado de cobre que lleva la suspensión de la mina hasta el puerto de Coloso. Este esquema de metro es eficiente y ecológicamente racional, como el cobre viaja cuesta abajo sin afectar el medio ambiente. La imagen de 2003 muestra cómo la mina Escondida ha crecido y ampliado, mientras que al mismo tiempo que continúa para minimizar los impactos negativos de sus operaciones mineras sobre el medio ambiente.<br /><br />]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=98</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Escondida</value>
+			</description>
+		</exdata>
+	</Placemark>
+	<Placemark>
+		<name>Santiago</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-70.640095</longitude>
+			<latitude>-33.453031</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>108868</range>
+		</LookAt>
+		<styleUrl>#UNEP_ecosystems_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Chile</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_32/site_32.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_32_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_32_g_popup.jpg" width="380"/><br/>Santiago, la capital de Chile, es el hogar de más de un tercio de la población total del país de 15 millones de dólares. Rápido crecimiento de Santiago es parte de una tendencia nacional, pero también es un reflejo de la gran cantidad de inmigrantes que están entrando en la ciudad. crecimiento <br /> <br /> Santiago de población ha dado lugar a una expansión horizontal de la ciudad, principalmente hacia el sur y sureste. Chile estudiosos urbanos hablar de esta expansión como la "mancha urbana" que continuamente se supera y amplía los límites de la Región Metropolitana de Santiago (MRS), mientras que la incorporación de las zonas rurales ya en ella. Características de la expansión urbana de Santiago son el crecimiento irregular, la vivienda de baja densidad, el transporte deficiente y la contaminación del aire. En el marco de tiempo ilustrada por estas imágenes, la población de Santiago casi se ha duplicado.<br />]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=32</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Santiago</value>
+			</description>
+		</exdata>
+			<Point>
+				<coordinates>-70.31848100000001,-33.167694,0</coordinates>
+			</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rondônia</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-63.61583</longitude>
+			<latitude>-10.130256</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>298843</range>
+		</LookAt>
+		<styleUrl>#UNEP_climate_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Brazil</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_29/site_29.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_29_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_29_g_popup.jpg" width="380"/><br/>Aproximadamente el 30 por ciento de los bosques tropicales del mundo se encuentran en Brasil. En su continuo esfuerzo por descentralizar la población brasileña y explotar las regiones subdesarrolladas, el gobierno brasileño construyó la carretera Cuiabá-Porto Velho a través de la provincia de Rondônia. Completado en 1960, el camino sirve como vía de acceso para el desarrollo de infraestructura en la región, antes ocupado únicamente por los pueblos indígenas. En 1975, la región era aún relativamente vírgenes, con gran parte de la selva intacta. En 1989, el patrón de espina de pescado distintivo de la explotación forestal había aparecido, y en 2001 se había expandido dramáticamente. La carretera se ha convertido en una importante ruta de transporte para los agricultores inmigrantes en busca de oportunidades generadoras de ingresos. Migración en la zona no ha disminuido.]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=29</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Rondônia</value>
+			</description>
+		</exdata>
+			<Point>
+				<coordinates>-62.76188999999999,-9.492528999999999,0</coordinates>
+			</Point>
+	</Placemark>
+	<Placemark>
+		<name>Valdivian</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-72.08562000000001</longitude>
+			<latitude>-35.454952</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>143022</range>
+		</LookAt>
+		<styleUrl>#UNEP_ecosystems_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Chile</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_148/site_148.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_148_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_148_g_popup.jpg" width="380"/><br/>Chile ha sido considerado recientemente como uno de los países económicamente más competitivos de América Latina. El rápido crecimiento en la producción de Chile y la exportación de productos forestales se basa en la expansión y gestión de especies exóticas plantaciones de especies forestales en los últimos 30 años. Sin embargo, algunos estudios han demostrado que esta expansión de las plantaciones forestales se ha producido una disminución de los bosques nativos en la región centro-sur del país. Estos dos Landsat MSS y ETM escenas tomadas en 1975 y 2001, respectivamente, se muestran los cambios de uso del suelo durante los últimos 30 años. Muchos de árboles en peligro de extinción y especies de arbustos han sido afectados por este cambio, que también ha dado lugar a una reducción drástica de la diversidad del paisaje, así como productos y servicios de los bosques. Las prácticas tradicionales de uso de la tierra en pequeña escala de la tala de bosques nativos, la ganadería y la agricultura han sido sustituidos por la producción de madera a gran escala que pone árbol endémico en peligro de extinción y especies arbustivas en situación de riesgo.]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=148</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Valdivian</value>
+			</description>
+		</exdata>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<coordinates>-71.657152,-35.222967,0</coordinates>
+			</Point>
+	</Placemark>
+	<Placemark>
+		<name>Manaus</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-60.080441</longitude>
+			<latitude>-2.91569</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>128686</range>
+		</LookAt>
+		<styleUrl>#UNEP_ecosystems_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Brazil</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_74/site_74.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_74_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_74_g_popup.jpg" width="380"/><br/>Manaos, la capital del estado de Amazonas, se encuentra en la orilla norte del Río Negro en su confluencia con el río Solimoes, que se extiende hacia el este como el río Amazonas. La población de Manaos creció más que el 65 por ciento entre 1993 y 2003 su población actual de más de 1,5 millones de euros. <br /> <br /> Estas dos imágenes Landsat documento de la conversión de áreas forestales debido a la tala y la urbanización entre 1987 y 2001. La ciudad de Manaos se puede ver en color gris hacia la esquina inferior derecha de las imágenes. Además de la expansión urbana evidente en los alrededores de la ciudad, el aumento de la tala y la construcción de carreteras se puede ver en la imagen de 2001. El área rectangular de bosque maduro en la frontera norte de la ciudad es la Reserva Forestal Adolpho Ducke. <br /> <br /> Unos 15 kilómetros de Manaos, Río Negro (Río Negro) Río Solimoes se reúne para crear una increíble confluencia de la marrón de aguas bravas de la Saliomes unirse al agua negro (causada por la acidez muy elevada, de taninos) de Río Negro. El Río Solimoes aparece de color azul en esta imagen, el Río Negro negro. Las aguas negro de Río Negro no se absorbe completamente hasta muchos kilómetros después de los dos ríos se unen.]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=74</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Manaus</value>
+			</description>
+		</exdata>
+			<Point>
+				<coordinates>-59.718896,-2.661715,0</coordinates>
+			</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gulf of Guayaquil</name>
+		<Snippet maxLines="0"></Snippet>
+		<LookAt>
+			<longitude>-80.186027</longitude>
+			<latitude>-2.610876</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<range>167399</range>
+		</LookAt>
+		<styleUrl>#UNEP_ecosystems_always_on</styleUrl>
+		<exdata>
+			<Data name="Country">
+				<value>Ecuador</value>
+			</description>
+			<Data name="Overlay_URL">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/kmz/site_51/site_51.kml</value>
+			</description>
+			<Data name="Overlay_Thumb">
+				<value>http://mw2.google.com/mw-earth-vectordb/outreach/media/unep/photos/site_51_g_popup.jpg</value>
+			</description>
+			<description><![CDATA[<img src="file:///home/olpc/Activities/OfflineMaps.activity/MapPack/site_51_g_popup.jpg" width="380"/><br/>Guayaquil es la ciudad más grande de Ecuador y el puerto marítimo principal. Se encuentra en el río Guayas, que desemboca en el gran Golfo de Guayaquil en la costa sur del país. A lo largo del Golfo, los manglares han sido convertidos constantemente a los camarones en los estanques de acuicultura para la producción de camarón de cultivo. En un período de 15 años, las zonas costeras desarrolladas para la acuicultura de camarón crecieron en aproximadamente un 30 por ciento, pasando de 90 000 hectáreas en 1984 a 118 000 hectáreas en 2000 (CLIRSEN, 2000). Aproximadamente el 70 por ciento de las actividades de cría de camarones de Ecuador se encuentran en el Golfo de Guayaquil. En este par de imágenes de satélite, la pérdida de los manglares y el crecimiento de la industria de la acuicultura se puede ver a lo largo de la costa y en la alteración de los patrones dendríticas (ramificación de un árbol) de las vías fluviales costeras, especialmente los de la gran isla de la Puna. Los manglares proveen de cría de peces y hábitat de vida silvestre, actúan como barreras naturales contra las mareas de tempestad y las aguas subterráneas del filtro. La conversión de manglares en estanques de acuicultura tiene consecuencias ambientales de amplio alcance.]]></description>
+			<Data name="Read_More_URL">
+				<value>http://na.unep.net/atlas/webatlas.php?id=51</value>
+			</description>
+			<Data name="Country_Profile">
+			</description>
+			<Data name="Blog_URL">
+				<value>http://unepatlas.blogspot.com/search/label/Gulf of Guayaquil</value>
+			</description>
+		</exdata>
+			<Point>
+				<coordinates>-79.715797,-2.236392,0</coordinates>
+			</Point>
+	</Placemark>
+</Folder>
+</kml>
